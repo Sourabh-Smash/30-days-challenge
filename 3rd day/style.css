@@ -1,0 +1,78 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6665ee;
+}
+h4{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.2;  
+}
+.container{
+    width: 600px;
+    background-color: #fff;
+    padding: 25px 30px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.message-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.message-form input{
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #6665ee;
+
+}
+.message-form input.box{
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+.message-form input.button{
+    font-size: 1rem;
+    padding: 12px 20px;
+    background-color: #6665ee;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.message-form input.button:hover{
+background-color: #8888f7;
+transition: all ease-in 0.3s;
+}
+h5{
+    background-color: #FFD4CD;
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    width: 100%;
+}
+.feedback{
+    display: none;
+}
+.show{
+    display: block;
+}
+.message-content{
+    color: #4BB30A;
+}
