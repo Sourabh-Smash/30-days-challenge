@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 800;
+  background: #aaa;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+  color: white;
+  cursor: pointer;
+  transition: background ease 0.4s;
+  width: 90px;
+}
+button:hover {
+  background: black;
+}
