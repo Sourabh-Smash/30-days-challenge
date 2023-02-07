@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  background: url('imgs/1.svg') center/cover fixed no-repeat;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  height: 400px;
+  width: 500px;
+}
+.btn {
+  font-size: 20px;
+}
+.btn-left {
+  position: relative;
+  left: -7%;
+  top: 50%;
+  transition: font-size ease-in 0.3s;
+}
+.btn-right {
+  position: relative;
+  left: 98%;
+  top: 50%;
+  transition: font-size ease-in 0.3s;
+}
+.btn-left:hover,
+.btn-right:hover {
+  font-size: 25px;
+}
